@@ -19,7 +19,7 @@
   /**
    * colors
    */
-
+  
   --st-patricks-blue: hsl(236, 57%, 28%);
   --amaranth-purple: hsl(335, 88%, 38%);
   --royal-blue-dark: hsl(231, 68%, 21%);
@@ -355,6 +355,7 @@ body {
   background-size: auto, cover, auto;
   padding-block-start: 120px;
   padding-block-end: var(--section-padding);
+  background-color: var(--bg-dark-purple);
 }
 
 .hero-content { margin-block-end: 50px; }
@@ -1048,3 +1049,5 @@ body {
   .footer-brand { grid-column: auto; }
 
 }
+
+/* dark mode */
