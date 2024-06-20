@@ -604,9 +604,9 @@
   <footer class="footer">
 
     <div class="footer-top section">
-      <div class="container">
+      <div style="display: flex; flex-direction: row;  justify-content: space-between;" class="container">
 
-        <div class="footer-brand">
+        <div style="display: flex; justify-content: start; flex-direction: column;" class="footer-brand">
 
           <a href="#" class="logo"><img src="./assets/images/new-logo.png" width="250" alt=""></a>
 
@@ -638,35 +638,84 @@
 
         </div>
 
-        <ul class="footer-list">
+        <div class="footer-content" style="display: flex; flex-direction:column;">
 
-          <li>
-            <p class="footer-list-title">Our links</p>
-          </li>
+            <p style="margin-bottom: 4px;" class="footer-list-title">Our links</p>
 
-          <li>
-            <a href="#" class="footer-link">Home</a>
-          </li>
+          <ul style="display: flex; flex-direction: row; justify-content: space-between;" class="footer-list">
 
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Services</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Team</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+  
+          </ul>
 
-          <li>
-            <a href="#" class="footer-link">Services</a>
-          </li>
+          <ul class="footer-list">
+            <li>
+              <p style="margin-top: 8px; margin-bottom: 4px;" class="footer-list-title">Contact Us</p>
+            </li>
 
-          <li>
-            <a href="#" class="footer-link">Team</a>
-          </li>
+            <!-- <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+  
+            <li class="footer-item">
+  
+              <div class="footer-item-icon">
+                <ion-icon name="call"></ion-icon>
+              </div>
+  
+              <div>
+                <a href="tel:+8801993092880" class="footer-item-link">+8801993092880</a>
+                <a href="tel:+2486871365" class="footer-item-link">+248-687-1365</a>
+              </div>
+  
+            </li> -->
+  
+            <li class="footer-item">
+  
+              <div class="footer-item-icon">
+                <ion-icon name="mail"></ion-icon>
+              </div>
+  
+              <div>
+                <a href="mailto:info@elevatesite.com" class="footer-item-link">elevatesite.studio@gmail.com</a>
+              </div>
+  
+            </li>
+  
+            <li class="footer-item">
+  
+              <div class="footer-item-icon">
+                <ion-icon name="location"></ion-icon>
+              </div>
+  
+              <address class="footer-item-link">
+                Dhaka, Bangladesh
+              </address>
+  
+            </li>
+  
+          </ul>
+        </div>
 
-          <li>
-            <a href="#" class="footer-link">Blog</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
+        <!-- <ul class="footer-list">
 
           <li>
             <p class="footer-list-title">Our Services</p>
@@ -720,53 +769,9 @@
             <a href="#" class="footer-link">Support</a>
           </li>
 
-        </ul>
+        </ul> -->
 
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Contact Us</p>
-          </li>
-
-          <li class="footer-item">
-
-            <div class="footer-item-icon">
-              <ion-icon name="call"></ion-icon>
-            </div>
-
-            <div>
-              <a href="tel:+8801993092880" class="footer-item-link">+8801993092880</a>
-              <a href="tel:+2486871365" class="footer-item-link">+248-687-1365</a>
-            </div>
-
-          </li>
-
-          <li class="footer-item">
-
-            <div class="footer-item-icon">
-              <ion-icon name="mail"></ion-icon>
-            </div>
-
-            <div>
-              <a href="mailto:info@elevatesite.com" class="footer-item-link">info@elevatesite.com</a>
-              <a href="mailto:help@elevatesite.com" class="footer-item-link">help@elevatesite.com</a>
-            </div>
-
-          </li>
-
-          <li class="footer-item">
-
-            <div class="footer-item-icon">
-              <ion-icon name="location"></ion-icon>
-            </div>
-
-            <address class="footer-item-link">
-              Dhaka, Bangladesh
-            </address>
-
-          </li>
-
-        </ul>
+       
 
       </div>
     </div>
